@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
 
-  "name": "PISKA SEARCH",
-  "description": "Chrome Extension, TypeScript, Visual Studio Code",
+  "name": "Super Search",
+  "description": "Search the web like it command-line",
   "version": "1.0",
 
   "options_ui": {
