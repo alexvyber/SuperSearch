@@ -1,12 +1,13 @@
 {
   "manifest_version": 3,
 
-  "name": "Chrome Extension TypeScript Starter",
+  "name": "PISKA SEARCH",
   "description": "Chrome Extension, TypeScript, Visual Studio Code",
   "version": "1.0",
 
   "options_ui": {
-    "page": "options.html"
+    "page": "options.html",
+    "open_in_tab": true
   },
 
   "action": {
@@ -20,6 +21,8 @@
           "js": ["js/vendor.js", "js/content_script.js"]
       }
   ],
+
+  "omnibox": { "keyword" : "ss" },
 
   "background": {
     "service_worker": "js/background.js"
